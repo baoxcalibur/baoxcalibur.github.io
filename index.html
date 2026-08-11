@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singularity</title>
+
+    <style>
+        :root {
+            --bg: #141218;
+            --card: #1f1b24;
+            --accent: #d3a5d4;
+            --text: #f4eff4;
+            --muted: #b9b1bb;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Segoe UI", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .card {
+            background: var(--card);
+            border-radius: 16px;
+            padding: 3rem;
+            box-shadow: 0 0 30px rgba(0,0,0,.3);
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: var(--muted);
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        .button {
+            text-decoration: none;
+            color: var(--bg);
+            background: var(--accent);
+            padding: 0.8rem 1.4rem;
+            border-radius: 10px;
+            font-weight: 600;
+            transition: transform .15s ease;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .links a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 2rem;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+
+        <h1>Singularity</h1>
+
+        <p>
+            A Discord bot focused on moderation, leveling,
+            automation, and community management.
+        </p>
+
+        <div class="buttons">
+            <a class="button" href="#" target="_blank">Invite Bot</a>
+            <a class="button" href="#" target="_blank">Support Server</a>
+        </div>
+
+        <div class="links">
+            <a href="/Singularity/tos/">Terms of Service</a>
+            <a href="/Singularity/privacy/">Privacy Policy</a>
+            <a href="#" target="_blank">GitHub</a>
+        </div>
+
+        <footer>
+            © 2026 Singularity • Made by Baozi
+        </footer>
+
+    </div>
+</div>
+
+</body>
+</html>

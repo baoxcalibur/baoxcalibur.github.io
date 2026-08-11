@@ -152,6 +152,10 @@ footer{
     </div>
 </div>
 
+<audio id="bgm" loop>
+    <source src="audios/bgm.mp3" type="audio/mpeg">
+</audio>
+    
 <script>
 const overlay = document.getElementById("overlay");
 const bgm = document.getElementById("bgm");
@@ -182,9 +186,6 @@ overlay.addEventListener("click", async () => {
          id="plana">
 
 <audio id="planaSound" src="audios/plana-voice.mp3"></audio>
-<audio id="bgm" loop>
-    <source src="audios/bgm.mp3" type="audio/mpeg">
-</audio>
 
 <script>
 const plana = document.getElementById("plana");
@@ -194,14 +195,6 @@ plana.addEventListener("click", () => {
     sound.currentTime = 0;
     sound.play();
 });
-</script>
-
-<script>
-const bgm = document.getElementById("bgm");
-
-document.addEventListener("click", () => {
-    bgm.play();
-}, { once: true });
 </script>
 
 <h1>baobao</h1>

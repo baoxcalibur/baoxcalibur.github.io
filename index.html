@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baozi</title>
+
+<style>
+:root{
+    --bg:#141218;
+    --card:#1f1b24;
+    --accent:#d3a5d4;
+    --text:#f4eff4;
+    --muted:#b9b1bb;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Segoe UI",sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    padding:2rem;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+}
+
+.hero{
+    background:var(--card);
+    border-radius:16px;
+    padding:3rem;
+}
+
+h1{
+    color:var(--accent);
+    font-size:3rem;
+    margin-bottom:.5rem;
+}
+
+.subtitle{
+    color:var(--muted);
+    margin-bottom:2rem;
+}
+
+p{
+    line-height:1.8;
+}
+
+.section{
+    margin-top:2rem;
+}
+
+.section h2{
+    color:var(--accent);
+    margin-bottom:.75rem;
+}
+
+.tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:.5rem;
+    margin-top:1rem;
+}
+
+.tag{
+    background:#2a2431;
+    padding:.5rem .8rem;
+    border-radius:999px;
+    color:var(--text);
+}
+
+.links{
+    margin-top:2rem;
+    display:flex;
+    gap:1rem;
+    flex-wrap:wrap;
+}
+
+.button{
+    text-decoration:none;
+    color:var(--bg);
+    background:var(--accent);
+    padding:.8rem 1.2rem;
+    border-radius:10px;
+    font-weight:600;
+}
+
+footer{
+    margin-top:2rem;
+    color:var(--muted);
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<div class="hero">
+
+<h1>baobao</h1>
+
+<div class="subtitle">
+Backend Developer • Infrastructure Enthusiast • Discord Bot Developer
+</div>
+
+<p>
+I build backend systems, Discord bots, and infrastructure-focused
+software using C# and .NET. I enjoy performance optimization,
+observability, distributed systems, and designing scalable services.
+</p>
+
+<div class="section">
+<h2>Current Interests</h2>
+
+<div class="tags">
+<div class="tag">C#</div>
+<div class="tag">.NET 9</div>
+<div class="tag">MongoDB</div>
+<div class="tag">Redis</div>
+<div class="tag">OpenTelemetry</div>
+<div class="tag">ScyllaDB</div>
+<div class="tag">Performance Engineering</div>
+<div class="tag">Discord Bots</div>
+</div>
+</div>
+
+<div class="section">
+<h2>Projects</h2>
+
+<p>
+• Singularity — moderation, leveling and automation Discord bot.<br>
+<!-- • Resonance — optimized phonetic matching engine.<br> -->
+• Various infrastructure and observability experiments.
+</p>
+</div>
+
+<div class="links">
+<a class="button" href="https://github.com/baoxcalibur">GitHub</a>
+<a class="button" href="/singularity">Singularity</a>
+</div>
+
+<footer>
+Built with HTML, caffeine, and questionable optimization decisions.
+</footer>
+
+</div>
+
+</div>
+
+</body>
+</html>
